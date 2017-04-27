@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font-family: 'Oxygen', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+body, ul, li, h1, h2, h3, h4, h5, h6{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.Wavesmain {
+    width: 100%;
+}
+
+.Headerbackgroundimg {
+    height: 76vh;
+    background-image: url(WavesFlowing.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.HeaderNav {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 32px;
+    color: black;
+}
+
+.HeaderNav hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.WaveNav {
+    height: 6vh;
+    text-align: center;
+}
+
+ul{
+    list-style:none;
+    padding-top: 10px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+a:link, a:visited {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a:hover {
+    color: #3095A2;
+}
+
+.WaveNav hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.WaveBody {
+    height: 100vh;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.WaveFooter {
+    height: 15vh;
+    text-align: center;
+}
+
+.WaveFooter hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
