@@ -16,19 +16,27 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     width: 100%;
 }
 
+.WaveHeader {
+   
+}
+
 .Headerbackgroundimg {
-    height: 76vh;
+    height: 100vh;
     background-image: url(WavesFlowing.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
 }
 
+/*<---------------- Header Nav -------------------->*/
+
 .HeaderNav {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: 32px;
+    font-size: 60px;
     color: black;
+    height: 25vh;
+    padding-top: 25vh;
 }
 
 .HeaderNav hr {
@@ -39,31 +47,28 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.WaveNav {
-    height: 6vh;
-    text-align: center;
-}
-
-ul{
+.HeaderNav ul{
     list-style:none;
     padding-top: 10px;
 }
 
-ul li{
+.HeaderNav ul li{
     display:inline-block;
 }
 
-a:link, a:visited {
-    font-size: 20px;
+.HeaderNav a:link, a:visited {
+    font-size: 40px;
     color: black;
     text-decoration: none;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-a:hover {
+.HeaderNav a:hover {
     color: #3095A2;
 }
+
+/*<---------------- Header Nav -------------------->*/
 
 .WaveNav hr {
     margin-left: 10%;
@@ -74,14 +79,69 @@ a:hover {
 }
 
 .WaveBody {
-    height: 100vh;
     margin-left: 6%;
     margin-right: 6%;
+    font-family: 'Oxygen', sans-serif;
 }
+
+/*<---------------- AWave -------------------->*/
+
+.AWave h1 {
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.AWave h3 {
+    padding-top: 5px;
+}
+
+.AWave hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*<---------------- AWave -------------------->*/
+
+
+/*<---------------- Sound -------------------->*/
+
+.SoundWave {
+    height: 100vh;
+}
+
+.SoundWave h1 {
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.SoundWave h3 {
+    padding-top: 5px;
+}
+
+.SoundWave hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*<---------------- Sound -------------------->*/
+
+
+/*<---------------- Footer -------------------->*/
 
 .WaveFooter {
     height: 15vh;
     text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.WaveFooter h3{
+    font-size: 25px;
 }
 
 .WaveFooter hr {
@@ -91,3 +151,5 @@ a:hover {
     height: 2px; 
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+/*<---------------- Footer -------------------->*/
